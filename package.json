@@ -1,0 +1,20 @@
+{
+  "name": "heladositio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"sass style.scss ./css/helado.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateokripper/heladositio.git"
+  },
+  "author": "Mateo Kripper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateokripper/heladositio/issues"
+  },
+  "homepage": "https://github.com/mateokripper/heladositio#readme"
+}

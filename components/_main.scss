@@ -1,0 +1,49 @@
+main{
+
+h1{
+    font-size:50px;
+    padding: 1rem;
+    margin: 3rem;
+    color:#F3E9DD;
+    text-align: center;
+    background-color: #ee2450;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size:35px;
+    padding: 8px;
+    margin: 4px;
+    color: #ee2450;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+}
+
+
+
+.main__ilustracion{
+    padding: 2rem;
+    margin: 16px;
+    text-align: center;
+    background-color:#F3E9DD;
+    position:relative;
+    overflow: hidden;
+}
+
+.main__parrafo{
+    background-color: #F3E9DD;
+    padding: 1rem;
+    margin:16px;
+    font-size: 20px;
+
+}
+
+form{
+    position:relative;
+}
+
