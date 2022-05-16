@@ -9,9 +9,9 @@ footer{
 }
 
 $rrss: (
-    twitter:#55acee,
-    instagram: #c92d8f,
-    facebook: blue
+    twitter:#ee2450,
+    instagram: #ee2450,
+    facebook: #ee2450
 );
 
 @each $name, $color in $rrss {
