@@ -8,6 +8,26 @@ body{
     font-family: 'Anybody', cursive;
 }
 
+@mixin cardContainer ($justifyContent, $column) {
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: $justifyContent;
+    align-items: center;
+    padding:30px 20px;
+    
+
+    @if ($column == 'yes') {
+        flex-direction: column;
+    }
+}
+
+@each $links in (a) {
+    #{$links}{
+        text-decoration: none;
+    }
+}
 
 
 @media screen and (max-width: 1024px) {

@@ -1,9 +1,25 @@
 footer{
     padding: 10px;
-    margin: 10px;
+    margin: 20px ;
     color:black;
     background-color:#F3E9DD;
     display:flex;
     align-items: center;
     justify-content:left;
+}
+
+$rrss: (
+    twitter:#55acee,
+    instagram: #c92d8f,
+    facebook: blue
+);
+
+@each $name, $color in $rrss {
+    .#{$name}{
+        background-color: $color;
+        margin: 0 10px;
+        padding: 10px ;
+        color:#fff;
+        border-radius: 20px;
+    }
 }
