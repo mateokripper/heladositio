@@ -8,6 +8,18 @@ body{
     font-family: 'Anybody', cursive;
 }
 
+.titleTemplate{
+    font-size:50px;
+    padding: 1rem;
+    margin: 3rem;
+    color:$colorPrimary;
+    text-align: center;
+    background-color: $bgColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @mixin cardContainer ($justifyContent, $column) {
     border-radius: 20px;
     background-color: #fff;

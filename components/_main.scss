@@ -1,15 +1,7 @@
 main{
 
 h1{
-    font-size:50px;
-    padding: 1rem;
-    margin: 3rem;
-    color:#F3E9DD;
-    text-align: center;
-    background-color: #ee2450;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend .titleTemplate;
 }
 h2{
     font-size:35px;
