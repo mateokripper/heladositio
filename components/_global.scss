@@ -20,7 +20,7 @@ body{
     justify-content: center;
 }
 
-@mixin cardContainer ($justifyContent, $column) {
+@mixin textContainer ($justifyContent, $column) {
     border-radius: 20px;
     background-color: #fff;
     display: flex;
@@ -115,6 +115,18 @@ body{
 @media screen and (max-width: 600px) {
     body {
         background-color:#ee2450;
+    }
+
+    main{
+        .main__textIlustration{
+            @include textContainer(center, 'yes');
+            background-color: #F3E9DD;
+            padding: 1rem;
+            margin:30px;
+            font-size: 20px;
+            display: flex;
+            align-content: space-between;
+        }
     }
     .header{
         flex-direction: row;

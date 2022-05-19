@@ -17,7 +17,7 @@ h2{
 
 .main__ilustracion{
 
-    @include cardContainer(center, 'yes');
+    @include textContainer(center, 'yes');
     padding: 2rem;
     margin: 30px;
     text-align: center;
@@ -26,9 +26,18 @@ h2{
     overflow: hidden;
 }
 
+.main__textIlustration{
+    @include textContainer(center, '');
+    background-color: #F3E9DD;
+    padding: 1rem;
+    margin:30px;
+    font-size: 20px;
+    display: flex;
+    align-content: space-between;
+}
 
 .main__parrafo{
-    @include cardContainer(center, 'yes');
+    @include textContainer(center, 'yes');
     background-color: #F3E9DD;
     padding: 1rem;
     margin:30px;
@@ -37,7 +46,7 @@ h2{
 }
 
 .main__contacto{
-    @include cardContainer(center, '');
+    @include textContainer(center, '');
     background-color: #F3E9DD;
     padding: 1rem;
     margin:30px;
