@@ -19,7 +19,7 @@ h2{
 
     @include textContainer(center, 'yes');
     padding: 2rem;
-    margin: 30px;
+    margin: 50px;
     text-align: center;
     background-color:#F3E9DD;
     position:relative;
@@ -30,18 +30,20 @@ h2{
     @include textContainer(center, '');
     background-color: #F3E9DD;
     padding: 1rem;
-    margin:30px;
+    margin:50px;
     font-size: 20px;
     display: flex;
     align-content: space-between;
+    
 }
 
 .main__parrafo{
     @include textContainer(center, 'yes');
     background-color: #F3E9DD;
     padding: 1rem;
-    margin:30px;
+    margin:50px;
     font-size: 20px;
+    text-align: center;
 
 }
 
@@ -58,3 +60,40 @@ form{
     position:relative;
 }
 
+.gallery-container{
+    width: 100%;
+    max-width: 1100px;
+    
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: 250px; 
+        grid-gap:20px;
+       
+                    
+    }      
+
+.gallery__img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.galllery__item{
+    position: relative;
+    grid-column-start: span 2;
+    margin: 10px ;
+    padding: 10px;
+    
+}
+
+.galllery__item :nth-child(1){
+    grid-column-start:span 2;
+}
+
+.galllery__item :nth-child(4){
+    grid-row-start:span 2;
+}
